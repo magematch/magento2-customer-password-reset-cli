@@ -1,0 +1,42 @@
+{
+    "name": "arjundhi/magento2-customer-password-reset-cli",
+    "description": "Magento 2 CLI module to send customer password reset links by email or customer-id range.",
+    "type": "magento2-module",
+    "license": "MIT",
+    "keywords": [
+        "magento2",
+        "customer",
+        "password-reset",
+        "cli",
+        "console-command",
+        "rameera"
+    ],
+    "support": {
+        "issues": "https://github.com/arjundhi/magento2-customer-password-reset-cli/issues",
+        "source": "https://github.com/arjundhi/magento2-customer-password-reset-cli"
+    },
+    "require": {
+        "php": "^8.1 || ^8.2 || ^8.3 || ^8.4",
+        "magento/framework": "^103.0",
+        "magento/module-customer": "^103.0",
+        "arjundhi/magento2-email": "^1.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Rameera\\PasswordReset\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Rameera/PasswordReset"
+            ]
+        ]
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
