@@ -6,9 +6,9 @@
 > Part of the [MageMatch](https://magematch.com) 
 > developer ecosystem
 
-# Rameera Password Reset CLI
+# MageMatch Password Reset CLI
 
-`Rameera_PasswordReset` provides a Magento CLI command that generates password reset tokens and triggers reset emails for selected customers.
+`MageMatch_PasswordReset` provides a Magento CLI command that generates password reset tokens and triggers reset emails for selected customers.
 
 ## Features
 
@@ -31,12 +31,12 @@
 
 Place module in:
 
-`app/code/Rameera/PasswordReset`
+`app/code/MageMatch/PasswordReset`
 
 Then run:
 
 ```bash
-php bin/magento module:enable Rameera_PasswordReset
+php bin/magento module:enable MageMatch_PasswordReset
 php bin/magento setup:upgrade
 php bin/magento cache:flush
 ```
@@ -45,7 +45,7 @@ php bin/magento cache:flush
 
 ```bash
 composer require arjundhi/magento2-customer-password-reset-cli
-php bin/magento module:enable Rameera_PasswordReset
+php bin/magento module:enable MageMatch_PasswordReset
 php bin/magento setup:upgrade
 php bin/magento cache:flush
 ```
