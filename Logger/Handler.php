@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Rameera\PasswordReset\Logger;
+namespace MageMatch\CustomerPasswordResetCli\Logger;
 
 use Monolog\Logger as MonologLogger;
 

@@ -1,3 +1,11 @@
+# Customer Password Reset CLI for Magento 2
+
+> Free, open-source Magento 2 extension  
+> by **Arjun Dhiman** — 
+> [Adobe Commerce Certified Master](https://magematch.com/developers/arjun-dhiman)  
+> Part of the [MageMatch](https://magematch.com) 
+> developer ecosystem
+
 # Rameera Password Reset CLI
 
 `Rameera_PasswordReset` provides a Magento CLI command that generates password reset tokens and triggers reset emails for selected customers.
@@ -80,3 +88,25 @@ Checks:
 ## License
 
 This project is licensed under the MIT License. See `LICENSE`.
+
+---
+## Installation
+```bash
+composer require magematch/magento2-customer-password-reset-cli
+bin/magento module:enable MageMatch_CustomerPasswordResetCli
+bin/magento setup:upgrade
+bin/magento cache:clean
+```
+
+## Compatibility
+- Magento Open Source 2.4.x
+- Adobe Commerce 2.4.x
+- PHP 8.1, 8.2, 8.3
+
+## Support & Custom Development
+Need custom Magento development?  
+Find vetted Adobe Commerce developers at  
+**[magematch.com](https://magematch.com)**
+
+## License
+MIT License — free to use commercially

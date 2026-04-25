@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Rameera\PasswordReset\Console\Command;
+namespace MageMatch\CustomerPasswordResetCli\Console\Command;
 
-use Rameera\Email\Model\Customer\EmailNotification;
+use MageMatch\Email\Model\Customer\EmailNotification;
 use Magento\Customer\Api\CustomerRepositoryInterface;
 use Magento\Customer\Api\Data\CustomerInterface;
 use Magento\Customer\Model\AccountManagement;
@@ -16,7 +16,7 @@ use Magento\Framework\App\Area;
 use Magento\Framework\App\State;
 use Magento\Framework\Exception\LocalizedException;
 use Magento\Framework\Math\Random;
-use Rameera\PasswordReset\Logger\Logger;
+use MageMatch\CustomerPasswordResetCli\Logger\Logger;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;

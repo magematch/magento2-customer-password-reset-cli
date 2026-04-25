@@ -13,7 +13,7 @@ All notable changes to `arjundhi/magento2-customer-password-reset-cli` are docum
 - CI workflow for composer/php/xml checks.
 
 ### Changed
-- Namespace migrated from `Hudson\\PasswordReset` to `Rameera\\PasswordReset`.
-- Module name migrated from `Hudson_PasswordReset` to `Rameera_PasswordReset`.
+- Namespace migrated from legacy vendor namespace to `Rameera\\PasswordReset`.
+- Module name migrated from legacy vendor module name to `Rameera_PasswordReset`.
 - `Reset` command refactored for stricter typing and safer search criteria handling.
 - Composer metadata modernized for PHP 8.1–8.4 and Magento 2.4 compatibility.
