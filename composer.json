@@ -2,7 +2,6 @@
   "name": "magematch/magento2-customer-password-reset-cli",
   "description": "Magento 2 CLI module to send customer password reset links by email or customer-id range.",
   "type": "magento2-module",
-  "version": "1.0.0",
   "license": "MIT",
   "authors": [
     {
@@ -18,7 +17,7 @@
   },
   "require": {
     "php": ">=8.1",
-    "magento/framework": "*"
+    "magento/framework": "^103.0"
   },
   "autoload": {
     "files": [
