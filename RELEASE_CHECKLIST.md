@@ -23,5 +23,5 @@
 
 ## Install Verification Matrix
 
-- Stable install: `composer require arjundhi/magento2-customer-password-reset-cli:^1.0`
-- Dev install: `composer require arjundhi/magento2-customer-password-reset-cli:"dev-main@dev"`
+- Stable install: `composer require magematch/magento2-customer-password-reset-cli:^1.0`
+- Dev install: `composer require magematch/magento2-customer-password-reset-cli:"dev-main@dev"`

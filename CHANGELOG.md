@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `arjundhi/magento2-customer-password-reset-cli` are documented here.
+All notable changes to `magematch/magento2-customer-password-reset-cli` are documented here.
 
 ## [Unreleased]
 

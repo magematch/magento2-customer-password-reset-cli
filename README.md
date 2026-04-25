@@ -44,7 +44,7 @@ php bin/magento cache:flush
 ### Install with Composer
 
 ```bash
-composer require arjundhi/magento2-customer-password-reset-cli
+composer require magematch/magento2-customer-password-reset-cli
 php bin/magento module:enable MageMatch_PasswordReset
 php bin/magento setup:upgrade
 php bin/magento cache:flush
